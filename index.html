@@ -3,66 +3,176 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio Futurista</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <title>Armando Aleixo | Portfólio Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <canvas id="bgCanvas"></canvas>
 
-  <header>
-    <h1>Portfólio Digital </h1>
-     <h3>Armando Aleixo</h3>  
-     <img src = "profile.jpeg" class="profile-pic">
-     <img src = "imagem.jpg" class="profile-pic2">
-    
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#Habilidades">Habilidades</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
-  <header2>
-    <h2> Perfil de desenvolvedor</h2>
-  </header2>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#hero">
+        <span class="brand-mark">AA</span>
+        <span class="brand-text">Armando Aleixo</span>
+      </a>
 
-  <section id="sobre">
-    <div class="card">
-   
-      
-      <h2>Desenvolvedor Full Stack</h2>
-      <p>
-        Desenvolvedor apaixonado por tecnologia, inovação e experiências digitais futuristas. 
-        Graduado em Sistemas de Informação pela Unifacisa, atuo como desenvolvedor Full Stack 
-        com foco em HTML, CSS e JavaScript. Possuo experiência na criação de interfaces modernas, 
-        interativas e com design voltado para estilos modernos e com alta performance e usabilidade.
-        Você pode encontrar mais informações sobre meu trabalho e experiência no meu Github.</p>
-    </div>
-  </section>
+      <nav class="main-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Skills</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
 
-  <section id="Habilidades">
-    <div class="card">
-      <h2>Habilidades</h2>
-      <p>• HTML, CSS e JavaScript</p>
-      <p>• Banco de dados (MySQL,MongoDB)</p>
-      <p>• Inglês avançado, Github</p>
-    </div>
-  </section>
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Full Stack Developer</p>
+          <h1> Desenvolvedor Full Stack com foco na usabilidade e praticidade.</h1>
+          <p class="lead">
+            Desenvolvo Softwares digitais com foco em performance, clareza visual e
+            interação. Unindo front-end refinado com backend, tudo organizado para entregar soluções completas.
+          </p>
 
-  <section id="contato">
-    <div class="card">
-      <h2>Entre em Contato</h2>
-      <div class="social-icons">
-        <a href="https://wa.me/5583986738642" target="_blank">Whatsapp</a>
-        <a href="https://github.com/ArmandoAleixo" target="_blank">GitHub</a>
-        <a href="mailto:armando.aleixo9@gmail.com" target="_blank">Email</a>
-      </div>
-    </div>
-  </section>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contato">Falar comigo</a>
+            <a class="button button-secondary" href="https://github.com/ArmandoAleixo" target="_blank" rel="noreferrer">Ver GitHub</a>
+          </div>
 
-  <footer>
-    <p>© 2026 - Armando Aleixo | Portfólio Digital </p>
-  </footer>
+          <ul class="hero-stats">
+            <li>
+              <strong>Front-end</strong>
+              <span>HTML, CSS, JavaScript e React</span>
+            </li>
+            <li>
+              <strong>Back-end</strong>
+              <span>Node.js, APIs e banco de dados</span>
+            </li>
+            <li>
+              <strong>Entrega</strong>
+              <span>Interfaces rápidas, responsivas e bem cuidadas</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-label="Apresentação visual do desenvolvedor">
+          <div class="portrait-frame">
+            <img src="profile.jpeg" alt="Foto de perfil de Armando Aleixo" class="profile-pic">
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="sobre">
+        <div class="section-heading">
+          <p class="eyebrow">Sobre</p>
+          <h2>Construo produtos com presença visual e usabilidade real.</h2>
+        </div>
+
+        <div class="about-layout">
+          <article class="panel">
+            <p>
+              Graduando em Sistemas de Informação pela Unifacisa e atuo como
+              desenvolvedor Full Stack. Gosto de transformar ideias em interfaces bem
+              resolvidas, com identidade forte, navegação clara e sensação de qualidade em
+              cada detalhe.
+            </p>
+            <p>
+              Meu foco está em criar soluções modernas com HTML, CSS e JavaScript, além de
+              trabalhar com React, Node.js, Git e bancos de dados. Busco sempre unir design,
+              performance e organização técnica em projetos que passam confiança.
+            </p>
+          </article>
+
+          <aside class="panel highlights">
+            <div class="highlight-item">
+              <span class="highlight-line"></span>
+              <div>
+                <h3>Design com direção</h3>
+                <p>Visual a escolha do cliente, adaptado às necessidades do projeto.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-line"></span>
+              <div>
+                <h3>Desenvolvimento completo</h3>
+                <p>Do layout à lógica, com atenção à experiência final.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-line"></span>
+              <div>
+                <h3>Evolução contínua</h3>
+                <p>Disposto a aprender e evoluir com as melhores práticas do mercado, aberto a aprender novas tecnologias.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="content-section" id="habilidades">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tecnologias.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Front-end</h3>
+            <p>HTML, CSS, JavaScript, React</p>
+          </article>
+          <article class="skill-card">
+            <h3>Back-end</h3>
+            <p>Node.js, APIs REST, integração de sistemas</p>
+          </article>
+          <article class="skill-card">
+            <h3>Banco de dados</h3>
+            <p>MySQL, MongoDB, modelagem e consultas</p>
+          </article>
+          <article class="skill-card">
+            <h3>Workflow</h3>
+            <p>Git, GitHub, versionamento e organização de entrega</p>
+          </article>
+          <article class="skill-card">
+            <h3>UI e UX</h3>
+            <p>Interfaces responsivas, hierarquia visual e refinamento</p>
+          </article>
+          <article class="skill-card">
+            <h3>Idiomas</h3>
+            <p>Inglês avançado para estudo, documentação e colaboração</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section contact-section" id="contato">
+        <div class="section-heading">
+          <p class="eyebrow">Contato</p>
+          <h2>Entre em contato</h2>
+        </div>
+
+        <div class="contact-panel">
+          <p>
+            Disponível para conversar sobre projetos, oportunidades e colaborações com foco
+            em desenvolvimento web e experiências digitais modernas.
+          </p>
+
+          <div class="contact-links">
+            <a href="https://wa.me/5583986738642" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a href="https://github.com/ArmandoAleixo" target="_blank" rel="noreferrer">GitHub</a>
+            <button type="button" class="contact-copy-button" id="copy-email-button" data-email="armando.aleixo9@gmail.com">
+              Email
+            </button>
+          </div>
+          <p class="copy-feedback" id="copy-feedback" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Armando Aleixo. Portfólio Full Stack.</p>
+    </footer>
+  </div>
 
   <script>
     const canvas = document.getElementById('bgCanvas');
@@ -76,14 +186,14 @@
     resizeCanvas();
 
     let particlesArray = [];
-    let mouse = { x: null, y: null, radius: 150 };
+    const mouse = { x: null, y: null, radius: 140 };
 
-    window.addEventListener('mousemove', function(event) {
+    window.addEventListener('mousemove', (event) => {
       mouse.x = event.x;
       mouse.y = event.y;
     });
 
-    window.addEventListener('mouseout', function() {
+    window.addEventListener('mouseout', () => {
       mouse.x = null;
       mouse.y = null;
     });
@@ -92,9 +202,9 @@
       constructor() {
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
-        this.size = Math.random() * 2 + 1;
-        this.speedX = Math.random() * 0.5 - 0.25;
-        this.speedY = Math.random() * 0.5 - 0.25;
+        this.size = Math.random() * 2 + 0.8;
+        this.speedX = Math.random() * 0.45 - 0.225;
+        this.speedY = Math.random() * 0.45 - 0.225;
       }
 
       update() {
@@ -106,19 +216,19 @@
       }
 
       draw() {
-        ctx.fillStyle = '#00f7ff';
+        ctx.fillStyle = '#65f5ff';
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.fill();
 
-        if (mouse.x && mouse.y) {
-          let dx = this.x - mouse.x;
-          let dy = this.y - mouse.y;
-          let distance = Math.sqrt(dx * dx + dy * dy);
+        if (mouse.x !== null && mouse.y !== null) {
+          const dx = this.x - mouse.x;
+          const dy = this.y - mouse.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
 
           if (distance < mouse.radius) {
-            this.x += dx / 20;
-            this.y += dy / 20;
+            this.x += dx / 24;
+            this.y += dy / 24;
           }
         }
       }
@@ -126,43 +236,40 @@
 
     function initParticles() {
       particlesArray = [];
-      for (let i = 0; i < 120; i++) {
+      const total = window.innerWidth < 768 ? 70 : 110;
+      for (let i = 0; i < total; i += 1) {
         particlesArray.push(new Particle());
+      }
+    }
+
+    function connectParticles() {
+      for (let i = 0; i < particlesArray.length; i += 1) {
+        for (let j = i + 1; j < particlesArray.length; j += 1) {
+          const dx = particlesArray[i].x - particlesArray[j].x;
+          const dy = particlesArray[i].y - particlesArray[j].y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+
+          if (distance < 110) {
+            ctx.beginPath();
+            ctx.strokeStyle = `rgba(101, 245, 255, ${1 - distance / 110})`;
+            ctx.lineWidth = 0.45;
+            ctx.moveTo(particlesArray[i].x, particlesArray[i].y);
+            ctx.lineTo(particlesArray[j].x, particlesArray[j].y);
+            ctx.stroke();
+          }
+        }
       }
     }
 
     function animateParticles() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      particlesArray.forEach(p => {
-        p.update();
-        p.draw();
+      particlesArray.forEach((particle) => {
+        particle.update();
+        particle.draw();
       });
 
-      for (let i = 0; i < particlesArray.length; i++) {
-        for (let j = i; j < particlesArray.length; j++) {
-          let dx = particlesArray[i].x - particlesArray[j].x;
-          let dy = particlesArray[i].y - particlesArray[j].y;
-          let distance = Math.sqrt(dx * dx + dy * dy);
-
-          if (distance < 120) {
-            ctx.beginPath();
-            ctx.strokeStyle = 'rgba(0, 247, 255,' + (1 - distance / 120) + ')';
-            ctx.lineWidth = 0.5;
-            ctx.moveTo(particlesArray[i].x, particlesArray[i].y);
-            ctx.lineTo(particlesArray[j].x, particlesArray[j].y);
-            ctx.stroke();
-
-            let energyX = particlesArray[i].x + (particlesArray[j].x - particlesArray[i].x) * 0.5;
-            let energyY = particlesArray[i].y + (particlesArray[j].y - particlesArray[i].y) * 0.5;
-            ctx.beginPath();
-            ctx.arc(energyX, energyY, 1.5, 0, Math.PI * 2);
-            ctx.fillStyle = '#ffffff';
-            ctx.fill();
-          }
-        }
-      }
-
+      connectParticles();
       requestAnimationFrame(animateParticles);
     }
 
@@ -171,9 +278,32 @@
       initParticles();
     });
 
+    const copyEmailButton = document.getElementById('copy-email-button');
+    const copyFeedback = document.getElementById('copy-feedback');
+    let copyFeedbackTimeout;
+
+    async function copyEmailToClipboard() {
+      const email = copyEmailButton.dataset.email;
+
+      try {
+        await navigator.clipboard.writeText(email);
+        copyFeedback.textContent = 'Email copiado com sucesso.';
+        copyFeedback.classList.add('is-visible');
+      } catch (error) {
+        copyFeedback.textContent = 'Nao foi possivel copiar automaticamente. Email: ' + email;
+        copyFeedback.classList.add('is-visible');
+      }
+
+      clearTimeout(copyFeedbackTimeout);
+      copyFeedbackTimeout = setTimeout(() => {
+        copyFeedback.classList.remove('is-visible');
+      }, 2200);
+    }
+
+    copyEmailButton.addEventListener('click', copyEmailToClipboard);
+
     initParticles();
     animateParticles();
   </script>
-
 </body>
 </html>
