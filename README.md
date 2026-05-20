@@ -1,3 +1,3 @@
 # Portifólio Digital
-Portifólio Digital contendo meu corriculo, informando minhas habilidades e experiencias.
+Portifólio Digital contendo meu curriculo, informando minhas habilidades e experiencias.
 
