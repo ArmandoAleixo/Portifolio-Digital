@@ -510,6 +510,33 @@ img {
     box-shadow: none;
   }
 
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    min-height: auto;
+    padding-top: 8px;
+  }
+
+  .hero-visual {
+    order: -1;
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .hero-copy {
+    order: 0;
+  }
+
+  .portrait-frame {
+    justify-items: start;
+  }
+
+  .profile-pic {
+    width: min(100%, 220px);
+    margin: 0 auto;
+  }
+
   .hero h1 {
     max-width: none;
     font-size: 2.5rem;
