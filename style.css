@@ -78,20 +78,6 @@ img {
   gap: 12px;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 42px;
-  height: 42px;
-  border: 1px solid var(--line-strong);
-  border-radius: 8px;
-  color: var(--cyan);
-  font-family: 'Orbitron', sans-serif;
-  font-size: 0.95rem;
-  font-weight: 700;
-  box-shadow: 0 0 22px rgba(101, 245, 255, 0.18);
-}
-
 .brand-text,
 .main-nav a,
 .eyebrow,
@@ -106,6 +92,7 @@ img {
 .brand-text {
   font-size: 0.95rem;
   letter-spacing: 0;
+  color: var(--text);
 }
 
 .main-nav {
